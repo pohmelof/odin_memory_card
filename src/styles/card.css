@@ -1,0 +1,18 @@
+.card {
+    border: 2px solid gray;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(226, 225, 225), rgb(179, 177, 177));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.card_img {
+    max-width: 100%;
+}
+.card_heading {
+    font-size: 2rem;
+}
